@@ -1,0 +1,110 @@
+(node:18788) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+/!\ You are using legacy implementation. Please update your code: use createWrapper() and wrapper.useWrappedStore().
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+ ⨯ The requested resource isn't a valid image for /assets/attention.png received text/html; charset=utf-8
+Invariant: failed to load static page {
+  "page": "/student/custom-report",
+  "url": "/student/custom-report",
+  "initUrl": "http://localhost:\\\\.\\pipe\\941b0d10-a9a6-4375-9be4-1048ac680f8c/student/custom-report",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /student/custom-report ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\student\custom-report.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderPageComponent (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1844:24)
+    at async NextNodeServer.renderToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1894:32)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:271:17)
+    at async NextNodeServer.handleRequestImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:807:17)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:342:24)
+Invariant: failed to load static page {
+  "page": "/student/custom-report",
+  "url": "/student/custom-report",
+  "initUrl": "http://localhost:\\\\.\\pipe\\941b0d10-a9a6-4375-9be4-1048ac680f8c/student/custom-report",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /student/custom-report ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\student\custom-report.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderPageComponent (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1844:24)
+    at async NextNodeServer.renderToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1894:32)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:271:17)
+    at async NextNodeServer.handleRequestImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:807:17)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:342:24)
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\404.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderErrorToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:2033:30)
+    at async pipe.req.req (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1988:30)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:361:13)
+    at async NextCustomServer.requestHandlerImpl [as requestHandler] (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.<anonymous> (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\server.js:23:9)
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\404.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderErrorToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:2033:30)
+    at async pipe.req.req (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1988:30)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:361:13)
+    at async NextCustomServer.requestHandlerImpl [as requestHandler] (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.<anonymous> (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\server.js:23:9)
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\404.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderErrorToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:2033:30)
+    at async pipe.req.req (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1988:30)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:361:13)
+    at async NextCustomServer.requestHandlerImpl [as requestHandler] (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.<anonymous> (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\server.js:23:9)
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /404 ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\404.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderErrorToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:2033:30)
+    at async pipe.req.req (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1988:30)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:361:13)
+    at async NextCustomServer.requestHandlerImpl [as requestHandler] (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:366:13)
+    at async Server.<anonymous> (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\server.js:23:9)
+Invariant: failed to load static page {
+  "page": "/login",
+  "url": "/login",
+  "initUrl": "http://localhost:\\\\.\\pipe\\941b0d10-a9a6-4375-9be4-1048ac680f8c/login",
+  "didRewrite": false
+}
+ ⨯ MissingStaticPage [Error]: Failed to load static file for page: /login ENOENT: no such file or directory, open 'C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\.next\server\pages\login.html'
+    at C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\require.js:102:19
+    at async loadComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\load-components.js:74:26)
+    at async NextNodeServer.findPageComponentsImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:675:36)
+    at async NextNodeServer.renderPageComponent (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1844:24)
+    at async NextNodeServer.renderToResponseImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:1894:32)
+    at async NextNodeServer.pipeImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:911:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\next-server.js:271:17)
+    at async NextNodeServer.handleRequestImpl (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\base-server.js:807:17)
+    at async invokeRender (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:163:21)
+    at async handleRequest (C:\inetpub\wwwroot\paathshalaerp.com\portal.paathshalaerp.com\node_modules\next\dist\server\lib\router-server.js:342:24)
