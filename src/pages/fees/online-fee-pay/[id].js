@@ -5,7 +5,6 @@ import { useEffect, useMemo } from "react";
 import { PaymentPageOnline } from "@/components/fees/PaymentPageOnline";
 import { getLocalStorageItem } from "@/utils/LocalStorage";
 import { useStudentStore } from "@/store/studentStore";
-import AtomPaynetz from "@/components/AtomPaynetz";
 
 export default function Page() {
     const router = useRouter();
@@ -26,17 +25,18 @@ export default function Page() {
         getSchoolInfoAction({
             orgCode: id,
         });
-        return () => {};
+        return () => { };
     }, [id]);
 
     if (!id) return null;
 
-    return ( <
-        PaymentPageOnline admissionId = { id }
-        SchoolInfo = { SchoolInfo }
-        themeColor = { themeColor }
-        sessionMasterId = { sessionMasterId }
-        />
+    return (
+        
+    <PaymentPageOnline orgCode={id}
+        SchoolInfo={SchoolInfo}
+        themeColor={themeColor}
+        sessionMasterId={sessionMasterId}
+    />
 
     );
 }
